@@ -45,9 +45,9 @@ public class LoginTest extends BaseTest{
 	}
 	
 	
-//	@Test(dataProvider="loginData1")
-	@Test
-	@Parameters({"username", "password"})
+	@Test(dataProvider="loginData")
+	//@Test
+	//@Parameters({"username", "password"})
 	public void testValidLogin(String username, String password) {
 		
 		Log.info("Starting test: testValidLogin");
